@@ -15,10 +15,10 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/OnePlusOSS/android_kernel_oneplus_sm8650.git
+          kernel-url: https://github.com/Idkjjjj/android_kernel_oneplus_sm8650.git
           kernel-dir: android_kernel_oneplus_sm8650
-          kernel-branch:  oneplus/sm8650_u_14.0.0_oneplus12
-          config: defconfig
+          kernel-branch:  wip-full
+          config: pineapple_GKI.config
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
