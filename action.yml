@@ -57,28 +57,28 @@ inputs:
     default: false
   lxc:
     description: 'Enable lxc and docker configs for configs.'
-    required: false
-    default: false
+    required: true
+    default: true
   lxc-patch:
     description: 'Apply lxc patch aviod not booting'
-    required: false
-    default: false
+    required: true
+    default: true
   nethunter:
     description: 'Enable Kali nethunter'
-    required: false
-    default: false
+    required: true
+    default: true
   nethunter-patch:
     description: 'patch config'
-    required: false
-    default: false
+    required: true
+    default: true
   kvm:
     description: 'Enable KVM for configs.'
     required: false
     default: false
   ccache:
     description: 'Enable Ccache for compiling kernel'
-    required: false
-    default: false
+    required: true
+    default: true
   aosp-gcc:
     description: 'Use gcc from aosp project.'
     required: true
