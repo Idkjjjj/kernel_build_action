@@ -57,20 +57,20 @@ inputs:
     default: false
   lxc:
     description: 'Enable lxc and docker configs for configs.'
-    required: true
-    default: true
+    required: false
+    default: false
   lxc-patch:
     description: 'Apply lxc patch aviod not booting'
-    required: true
-    default: true
+    required: false
+    default: false
   nethunter:
     description: 'Enable Kali nethunter'
-    required: true
-    default: true
+    required: false
+    default: false
   nethunter-patch:
     description: 'patch config'
-    required: true
-    default: true
+    required: false
+    default: false
   kvm:
     description: 'Enable KVM for configs.'
     required: false
